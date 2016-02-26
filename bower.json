@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate",
+  "authors": [
+    "Ryuichi Komeda <komeda@hivelocity.co.jp>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "adminize": "^0.2.2"
+  }
+}

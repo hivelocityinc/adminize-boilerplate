@@ -1,0 +1,49 @@
+{
+  "name": "adminize",
+  "description": "CSS framework for admin",
+  "version": "0.2.2",
+  "main": [
+    "css/adminize.css",
+    "js/adminize.js"
+  ],
+  "moduleType": "globals",
+  "license": "MIT",
+  "ignore": [
+    ".bowerrc",
+    ".gitignore",
+    "gulpfile.js",
+    "src",
+    "*/.*",
+    "*.json",
+    "*.md",
+    "test"
+  ],
+  "keywords": [
+    "adminize",
+    "html",
+    "css",
+    "admin",
+    "template"
+  ],
+  "authors": [
+    "Ryuichi Komeda <komeda@hivelocity.co.jp>"
+  ],
+  "homepage": "https://gitlab.hivelocity.co.jp/adminize/adminize",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.hivelocity.co.jp:adminize/adminize.git"
+  },
+  "dependencies": {
+    "jquery": ">=2.2.1",
+    "fontawesome": ">=4.5.0"
+  },
+  "_release": "0.2.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.2",
+    "commit": "b1701b8b8b78f120c436b509778a7864b688c71f"
+  },
+  "_source": "https://gitlab.hivelocity.co.jp/adminize/adminize.git",
+  "_target": "^0.2.2",
+  "_originalSource": "adminize"
+}
