@@ -16,6 +16,6 @@
     "tests"
   ],
   "dependencies": {
-    "adminize": "^0.2.2"
+    "adminize": "^0.3.*"
   }
 }
