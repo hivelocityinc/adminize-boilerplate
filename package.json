@@ -1,6 +1,6 @@
 {
   "name": "adminize-boilerplate",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,8 +15,10 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "bower": "^1.7.9",
     "gulp": "^3.9.1",
     "gulp-prettify": "^0.4.0",
-    "harp": "^0.20.3"
+    "harp": "^0.20.3",
+    "rimraf": "^2.5.2"
   }
 }
