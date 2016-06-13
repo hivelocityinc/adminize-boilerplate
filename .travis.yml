@@ -1,0 +1,14 @@
+language: node_js
+node_js: 4
+before_install:
+  - rvm install 2.2.2
+install:
+  - npm install -g harp bower
+  - npm install
+before_script:
+  - chmod +x ./scripts/deploy.sh
+after_success:
+  - '[ "$TRAVIS_BRANCH" == master ] && [ "$TRAVIS_PULL_REQUEST" == "false" ] && npm run-script deploy'
+env:
+  global:
+    secure: tR3yGiKzxOL5tv+OxbnpRlLPuRn/UckDMHS7xI2tJr2G/GhtdFJ7COWm4wJLQ903GojNg6dcFQeSb6jXq9oaso2/4JgMdtyfBzVSvWfmXRDRlEYETrxcSqNia1wG3pMNaEthFpqcioVYbDes77ZDVkJL+wH5dEhyOOUjgUk4CiKtfMVujjGTks3bdvhRHeiueU2ib4rAnAQqPE/MbAESPRwuxnXvp+1zwjb2iGS/xqYpMCH8e41/A5ibdMyvCWzljXskPY88YzXroC5+o2qAt32jHcNXLTalxCQ+Yuu3LrWSIYR4HPkppmI9vQHZwkWAtZzYYG8aD8sLIiYM8iS4f0Uxy6qgaY0fcYHOBVRKQJYLNqyig7YmwPwFZLAfI2k2PX1Za/76DWSuGVpjktL8W8R2GVM8ZWpNPZNnfosQvLD8ptzCExHNgtl2h22ncsKLrvO8H/xYXPXlf4xTy+QdHOhEJeOYvvnf8ORtYJy39JmpMkVut2tNv1WZSjzXTv+N4tBwr3Q4PvKio8Ez9JcnszD43vnshgQVmzr43ic1/yl+NMHNYwMzZf19POv2jiAbnItnSaYgacaxmtvIa229m3EOMSDEiNK8Nol08PMq7p49eA2EPXtZML2G0T4iRCN12zGvqSBdX15VuN3d3+rKginPsoNwV/VvplPnlJ0gyQg=
