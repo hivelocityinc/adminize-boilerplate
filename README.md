@@ -2,17 +2,17 @@
 
 This is admin tempalate with Adminize framework.
 
-## Getting started
+- **[Download](https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.3.0/boilerplate.zip)**
+- **[Source](https://github.com/hivelocityinc/adminize-boilerplate/tree/master/dist)**
+
+## Getting Started
+
+**From GitHub Releases**
 
 ```bash
-# 1. Download or clone the repository.
-$ git clone https://github.com/hivelocityinc/adminize-boilerplate.git
-
-# 2. Copy directory (html or jade)
-$ cp adminize-boilerplate/dist {your development directory}
-
-# 3. Install the adminize framework via bower
-$ cd {your development directory}
+$ wget https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.3.0/boilerplate.zip
+$ unzip boilerplate.zip
+$ cd boilerplate
 $ bower install
 ```
 
