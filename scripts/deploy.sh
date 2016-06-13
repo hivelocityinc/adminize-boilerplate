@@ -12,7 +12,8 @@ mkdir $TEMP_DIRECTORY || exit 1
 harp compile jade $TEMP_DIRECTORY/demo || exit 1
 cp .gitignore $TEMP_DIRECTORY || exit 1
 bower install https://github.com/hivelocityinc/adminize.git || exit 1
-cp -r bower_components $TEMP_DIRECTORY || exit 1
+cp -r ./bower_components $TEMP_DIRECTORY || exit 1
+ls -la $TEMP_DIRECTORY
 
 echo "Checking out gh-pages branch"
 git checkout -B gh-pages || exit 1
