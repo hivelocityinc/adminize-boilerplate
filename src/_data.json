@@ -1,5 +1,34 @@
 {
   "login": {
     "layout": "_layout-login"
+  },
+  "archive": {
+    "users": {
+      "komeda": {
+        "id": 1,
+        "name": "komeda",
+        "email": "komeda@mail.com"
+      },
+      "tanaka": {
+        "id": 2,
+        "name": "tanaka",
+        "email": "tanaka@mail.com"
+      },
+      "sato": {
+        "id": 3,
+        "name": "sato",
+        "email": "sato@mail.com"
+      },
+      "takahashi": {
+        "id": 4,
+        "name": "takahashi",
+        "email": "takahashi@mail.com"
+      },
+      "yamada": {
+        "id": 5,
+        "name": "yamada",
+        "email": "yamada@mail.com"
+      }
+    }
   }
 }
