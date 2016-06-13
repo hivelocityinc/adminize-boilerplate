@@ -1,21 +1,6 @@
 {
-  "name": "boilerplate",
-  "authors": [
-    "Ryuichi Komeda <komeda@hivelocity.co.jp>"
-  ],
-  "description": "",
-  "main": "",
-  "moduleType": [],
-  "license": "MIT",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "adminize-boilerplate",
   "dependencies": {
-    "adminize": "^0.4.*"
+    "adminize": "https://github.com/hivelocityinc/adminize.git"
   }
 }

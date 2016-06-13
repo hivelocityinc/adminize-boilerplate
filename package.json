@@ -1,0 +1,21 @@
+{
+  "name": "adminize-boilerplate",
+  "version": "0.2.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "gulp serve",
+    "prettify": "gulp prettify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github-hvc/hivelocityinc/adminize-boilerplate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-prettify": "^0.4.0",
+    "harp": "^0.20.3"
+  }
+}
