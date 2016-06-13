@@ -1,6 +1,5 @@
 {
   "name": "adminize-boilerplate",
-  "version": "0.3.0",
   "dependencies": {
     "adminize": "https://github.com/hivelocityinc/adminize.git"
   }

@@ -21,7 +21,7 @@ gulp.task('compile', ['bower:clean'], (cb) => {
   myExec('./node_modules/.bin/harp compile src dist && cp ./bower.json ./dist', (cb));
 });
 
-gulp.task('prettify', ['compile'], () => {
+gulp.task('build', ['compile'], () => {
   return gulp.src('dist/*.html')
     .pipe(prettify())
     .pipe(gulp.dest('dist'));

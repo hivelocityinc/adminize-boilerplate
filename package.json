@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "gulp serve",
-    "prettify": "gulp prettify",
+    "build": "gulp build",
     "deploy": "./scripts/deploy.sh"
   },
   "repository": {
