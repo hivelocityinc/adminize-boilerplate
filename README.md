@@ -25,3 +25,4 @@ Included the following templates:
 - [Basic](http://hivelocityinc.github.io/adminize-boilerplate/index.html)
 - [Login](http://hivelocityinc.github.io/adminize-boilerplate/login.html)
 - [Dashboard](http://hivelocityinc.github.io/adminize-boilerplate/dashboard.html)
+- [Archive](http://hivelocityinc.github.io/adminize-boilerplate/archive.html)
