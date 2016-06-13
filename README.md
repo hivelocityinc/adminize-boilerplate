@@ -1,4 +1,4 @@
-# WIP: Adminize Boilerplate
+# Adminize Boilerplate
 
 This is admin tempalate with Adminize framework.
 
