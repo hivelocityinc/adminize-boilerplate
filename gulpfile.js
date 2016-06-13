@@ -18,7 +18,7 @@ gulp.task('serve', ['bower:install'], (cb) => {
 });
 
 gulp.task('compile', ['bower:clean'], (cb) => {
-  myExec('./node_modules/.bin/harp compile src dist && cp ./bower.json ./dist', (cb));
+  myExec('./node_modules/.bin/harp compile src dist', (cb));
 });
 
 gulp.task('build', ['compile'], () => {
