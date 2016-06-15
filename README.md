@@ -1,11 +1,11 @@
 # Adminize Boilerplate
 
 [![Travis](https://img.shields.io/travis/hivelocityinc/adminize-boilerplate.svg?style=flat-square)](https://travis-ci.org/hivelocityinc/adminize-boilerplate)
-[![GitHub release](https://img.shields.io/github/release/hivelocityinc/adminize-boilerplate.svg?style=flat-square)](https://github.com/hivelocityinc/adminize-boilerplate/releases/tag/v0.4.0)
+[![GitHub release](https://img.shields.io/github/release/hivelocityinc/adminize-boilerplate.svg?style=flat-square)](https://github.com/hivelocityinc/adminize-boilerplate/releases/tag/v0.5.0)
 
 This is admin tempalate with Adminize framework.
 
-- **[Download](https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.4.0/boilerplate.zip)**
+- **[Download](https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.5.0/boilerplate.zip)**
 - **[Source](https://github.com/hivelocityinc/adminize-boilerplate/tree/master/dist)**
 
 ## Getting Started
@@ -13,7 +13,7 @@ This is admin tempalate with Adminize framework.
 **From GitHub Releases**
 
 ```bash
-$ wget https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.4.0/boilerplate.zip
+$ wget https://github.com/hivelocityinc/adminize-boilerplate/releases/download/v0.5.0/boilerplate.zip
 $ unzip boilerplate.zip
 $ cd boilerplate
 $ bower install
@@ -26,3 +26,4 @@ Included the following templates:
 - [Login](http://hivelocityinc.github.io/adminize-boilerplate/login.html)
 - [Dashboard](http://hivelocityinc.github.io/adminize-boilerplate/dashboard.html)
 - [Archive](http://hivelocityinc.github.io/adminize-boilerplate/archive.html)
+- [Detail](http://hivelocityinc.github.io/adminize-boilerplate/detail.html)
