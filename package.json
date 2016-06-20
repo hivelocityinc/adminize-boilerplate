@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean": "gulp clean",
     "serve": "gulp serve",
     "build": "gulp build",
     "deploy": "./scripts/deploy.sh"

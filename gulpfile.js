@@ -13,6 +13,8 @@ gulp.task('bower:clean', (cb) => {
   rimraf('./src/bower_components', cb);
 });
 
+gulp.task('clean', ['bower:clean']);
+
 gulp.task('serve', ['bower:install'], (cb) => {
   myExec('./node_modules/.bin/harp server src --port 5000', (cb));
 });
